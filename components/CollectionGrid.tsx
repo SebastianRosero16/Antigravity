@@ -43,7 +43,7 @@ const CollectionGrid = () => {
         <img 
           alt="Background graphic" 
           className="w-full h-full object-cover" 
-          src="https://images.unsplash.com/photo-1483985988355-763728e1935b?w=1200&q=80"src="https://images.unsplash.com/photo-1483985988355-763728e1935b?w=1200&q=80"
+          src="https://images.unsplash.com/photo-1483985988355-763728e1935b?w=1200&q=80"
         />
       </div>
 
