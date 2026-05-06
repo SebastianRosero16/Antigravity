@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "stitch": {
+      "command": "uvx",
+      "args": ["mcp-server-stitch@latest"],
+      "env": {
+        "STITCH_API_KEY": "YOUR_STITCH_API_KEY"
+      },
+      "disabled": false,
+      "autoApprove": []
+    }
+  }
+}

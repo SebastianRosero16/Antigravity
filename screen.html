@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>FRZN - Arctic Collection 01</title>
+<!-- Tailwind CSS CDN -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            'slate-dark': '#2c3e50',
+            'slate-deep': '#1a252f',
+            'ice-blue': '#a5b4fc',
+            'frost-white': '#f8fafc',
+          },
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+            display: ['Oswald', 'sans-serif'],
+          },
+        }
+      }
+    }
+  </script>
+<!-- Google Fonts for Bold Condensed Headers -->
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&amp;family=Oswald:wght@500;700&amp;display=swap" rel="stylesheet"/>
+<style data-purpose="custom-glassmorphism">.glass-panel {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1)
+    }
+.text-outline {
+    -webkit-text-stroke: 1px rgba(255, 255, 255, 0.3);
+    color: transparent
+    }
+.graffiti-bg {
+    background-image: url(https://lh3.googleusercontent.com/aida/ADBb0uiqX5_VqCTm9ENm1WNDedwDokHLqyPH0GvPtGuKQsjsQpHs4-pIqllJlyIyHQT5Xcv73gH3lO9AY1ktPB2zLUGHkTDn01t4grfd2vIPCFey8FmMIhyKhrqHCuqZBY0LKof_EUeLGKjWAtgaWMo1g70mEmzHrK9hTXEu1FTuTAz7IIR3KX4bgX-1x0SXT53T-cJwyfQMelVWuQsdZ9LV2o_GczoCFlux_JJ7XbP2AvcaJGax7Mw5nm7vdSqwwDzfksmEBv2SNtQ4y-8);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay
+    }
+.product-card-bg {
+    background: linear-gradient(180deg, rgba(44, 62, 80, 0.5) 0%, rgba(26, 37, 47, 0.8) 100%)
+    }</style>
+</head>
+<body class="bg-slate-deep text-frost-white font-sans selection:bg-ice-blue">
+<!-- BEGIN: Navigation -->
+<nav class="fixed top-0 w-full z-50 flex justify-between items-center px-6 py-4 glass-panel border-b-0" data-purpose="main-nav">
+<div class="text-xl font-display tracking-widest font-bold">FRZN</div>
+<div class="flex items-center gap-4">
+<button aria-label="Search" class="p-2">
+<svg fill="none" height="20" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="20" xmlns="http://www.w3.org/2000/svg"><circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.3-4.3"></path></svg>
+</button>
+<button aria-label="Menu" class="p-2">
+<svg fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg>
+</button>
+</div>
+</nav>
+<!-- END: Navigation -->
+<main>
+<!-- BEGIN: Hero Section -->
+<section class="relative min-h-screen flex flex-col pt-20 overflow-hidden" data-purpose="hero-section">
+<!-- Background Image Layer -->
+<div class="absolute inset-0 z-0">
+<img alt="Main Puffer Jacket" class="w-full h-full object-cover object-top brightness-75 scale-110" src="https://lh3.googleusercontent.com/aida/ADBb0uiqX5_VqCTm9ENm1WNDedwDokHLqyPH0GvPtGuKQsjsQpHs4-pIqllJlyIyHQT5Xcv73gH3lO9AY1ktPB2zLUGHkTDn01t4grfd2vIPCFey8FmMIhyKhrqHCuqZBY0LKof_EUeLGKjWAtgaWMo1g70mEmzHrK9hTXEu1FTuTAz7IIR3KX4bgX-1x0SXT53T-cJwyfQMelVWuQsdZ9LV2o_GczoCFlux_JJ7XbP2AvcaJGax7Mw5nm7vdSqwwDzfksmEBv2SNtQ4y-8"/>
+<div class="absolute inset-0 bg-gradient-to-b from-slate-deep/20 via-transparent to-slate-deep"></div>
+</div>
+<!-- Hero Content -->
+<div class="relative z-10 px-6 mt-12 flex flex-col justify-between flex-grow pb-12">
+<div>
+<p class="text-xs tracking-[0.3em] uppercase mb-2 opacity-70">[ SERIES: 01-R23 // SURVIVOR ]</p>
+<h1 class="text-5xl font-display font-bold leading-none tracking-tighter uppercase mb-2">
+            COLLECTION<br/><span class="text-ice-blue">ARTIC 01™</span>
+</h1>
+<!-- Size Selector -->
+<div class="flex gap-4 mt-8 text-[10px] tracking-widest uppercase opacity-60">
+<span>S</span><span>M</span><span class="text-white border-b border-white">L</span><span>XL</span>
+</div>
+<div class="flex gap-4 mt-2 text-[10px] tracking-widest uppercase opacity-60">
+<span>WHITE</span><span class="text-ice-blue">SILVER</span>
+</div>
+</div>
+<!-- Floating Price Label -->
+<div class="mt-auto">
+<div class="glass-panel p-6 rounded-sm max-w-[200px] border-l-4 border-ice-blue">
+<p class="text-xs uppercase tracking-widest opacity-70 mb-1">Add to Cart</p>
+<p class="text-2xl font-display font-bold">$899.99</p>
+<button class="mt-4 w-10 h-10 flex items-center justify-center border border-white/20 hover:bg-white hover:text-slate-deep transition-colors">
+<svg fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
+</button>
+</div>
+</div>
+</div>
+<!-- Decorative Side Scroll indicators -->
+<div class="absolute bottom-10 right-6 flex flex-col gap-2 z-10">
+<div class="w-[2px] h-12 bg-white/20">
+<div class="w-full h-1/3 bg-ice-blue"></div>
+</div>
+<p class="text-[10px] rotate-90 origin-left translate-x-2 translate-y-8 uppercase tracking-widest opacity-50">Scroll</p>
+</div>
+</section>
+<!-- END: Hero Section -->
+<!-- BEGIN: New Collection Grid -->
+<section class="bg-slate-deep py-20 px-6 relative" data-purpose="collection-grid">
+<!-- Decorative Background Graffiti -->
+<div class="absolute top-0 right-0 w-full h-full opacity-10 pointer-events-none mix-blend-overlay">
+<img alt="Background graphic" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida/ADBb0uiqX5_VqCTm9ENm1WNDedwDokHLqyPH0GvPtGuKQsjsQpHs4-pIqllJlyIyHQT5Xcv73gH3lO9AY1ktPB2zLUGHkTDn01t4grfd2vIPCFey8FmMIhyKhrqHCuqZBY0LKof_EUeLGKjWAtgaWMo1g70mEmzHrK9hTXEu1FTuTAz7IIR3KX4bgX-1x0SXT53T-cJwyfQMelVWuQsdZ9LV2o_GczoCFlux_JJ7XbP2AvcaJGax7Mw5nm7vdSqwwDzfksmEBv2SNtQ4y-8"/>
+</div>
+<div class="relative z-10">
+<div class="flex justify-between items-end mb-12">
+<h2 class="text-4xl font-display font-bold uppercase tracking-tighter">New Collection</h2>
+<button class="text-[10px] uppercase tracking-[0.2em] px-4 py-2 border border-white/30 rounded-full">Filters</button>
+</div>
+<!-- Single Featured Product (Mobile Optimized) -->
+<div class="mb-12 relative overflow-hidden group">
+<div class="aspect-[3/4] bg-slate-dark/30 rounded-sm overflow-hidden">
+<img alt="Aurora Puffer" class="w-full h-full object-cover transform transition-transform duration-700 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida/ADBb0uiqX5_VqCTm9ENm1WNDedwDokHLqyPH0GvPtGuKQsjsQpHs4-pIqllJlyIyHQT5Xcv73gH3lO9AY1ktPB2zLUGHkTDn01t4grfd2vIPCFey8FmMIhyKhrqHCuqZBY0LKof_EUeLGKjWAtgaWMo1g70mEmzHrK9hTXEu1FTuTAz7IIR3KX4bgX-1x0SXT53T-cJwyfQMelVWuQsdZ9LV2o_GczoCFlux_JJ7XbP2AvcaJGax7Mw5nm7vdSqwwDzfksmEBv2SNtQ4y-8"/>
+</div>
+<div class="absolute top-4 right-4 text-right">
+<h3 class="text-2xl font-display font-bold uppercase">Aurora™</h3>
+<p class="text-xs opacity-70 tracking-widest">$1,999</p>
+</div>
+</div>
+<!-- Two Column Grid for secondary items -->
+<div class="grid grid-cols-2 gap-4" id="product-grid">
+<!-- Product Item 1 -->
+<div class="flex flex-col gap-3">
+<div class="aspect-[4/5] product-card-bg rounded-sm p-4 relative overflow-hidden">
+<img alt="Jacket" class="w-full h-full object-contain mix-blend-screen opacity-80" src="https://lh3.googleusercontent.com/aida/ADBb0uiqX5_VqCTm9ENm1WNDedwDokHLqyPH0GvPtGuKQsjsQpHs4-pIqllJlyIyHQT5Xcv73gH3lO9AY1ktPB2zLUGHkTDn01t4grfd2vIPCFey8FmMIhyKhrqHCuqZBY0LKof_EUeLGKjWAtgaWMo1g70mEmzHrK9hTXEu1FTuTAz7IIR3KX4bgX-1x0SXT53T-cJwyfQMelVWuQsdZ9LV2o_GczoCFlux_JJ7XbP2AvcaJGax7Mw5nm7vdSqwwDzfksmEBv2SNtQ4y-8"/>
+<div class="absolute bottom-2 left-2 flex gap-1">
+<span class="w-2 h-2 rounded-full bg-white"></span>
+<span class="w-2 h-2 rounded-full bg-blue-400"></span>
+</div>
+</div>
+<div>
+<p class="text-[9px] uppercase tracking-wider opacity-50">Aurora Silver</p>
+<h4 class="text-xs font-bold uppercase">Reflective Puffer</h4>
+<p class="text-[10px] mt-1 opacity-70">$999.00</p>
+</div>
+</div>
+<!-- Product Item 2 -->
+<div class="flex flex-col gap-3">
+<div class="aspect-[4/5] product-card-bg rounded-sm p-4 relative">
+<img alt="Jacket" class="w-full h-full object-contain mix-blend-screen opacity-80" src="https://lh3.googleusercontent.com/aida/ADBb0uiqX5_VqCTm9ENm1WNDedwDokHLqyPH0GvPtGuKQsjsQpHs4-pIqllJlyIyHQT5Xcv73gH3lO9AY1ktPB2zLUGHkTDn01t4grfd2vIPCFey8FmMIhyKhrqHCuqZBY0LKof_EUeLGKjWAtgaWMo1g70mEmzHrK9hTXEu1FTuTAz7IIR3KX4bgX-1x0SXT53T-cJwyfQMelVWuQsdZ9LV2o_GczoCFlux_JJ7XbP2AvcaJGax7Mw5nm7vdSqwwDzfksmEBv2SNtQ4y-8"/>
+<div class="absolute bottom-2 left-2 flex gap-1">
+<span class="w-2 h-2 rounded-full bg-slate-200"></span>
+</div>
+</div>
+<div>
+<p class="text-[9px] uppercase tracking-wider opacity-50">Orbit Silver</p>
+<h4 class="text-xs font-bold uppercase">High-Gloss Puffer</h4>
+<p class="text-[10px] mt-1 opacity-70">$1,199.99</p>
+</div>
+</div>
+<!-- Product Item 3 -->
+<div class="flex flex-col gap-3">
+<div class="aspect-[4/5] product-card-bg rounded-sm p-4 relative">
+<img alt="Jacket" class="w-full h-full object-contain mix-blend-screen opacity-80" src="https://lh3.googleusercontent.com/aida/ADBb0uiqX5_VqCTm9ENm1WNDedwDokHLqyPH0GvPtGuKQsjsQpHs4-pIqllJlyIyHQT5Xcv73gH3lO9AY1ktPB2zLUGHkTDn01t4grfd2vIPCFey8FmMIhyKhrqHCuqZBY0LKof_EUeLGKjWAtgaWMo1g70mEmzHrK9hTXEu1FTuTAz7IIR3KX4bgX-1x0SXT53T-cJwyfQMelVWuQsdZ9LV2o_GczoCFlux_JJ7XbP2AvcaJGax7Mw5nm7vdSqwwDzfksmEBv2SNtQ4y-8"/>
+<div class="absolute bottom-2 left-2 flex gap-1">
+<span class="w-2 h-2 rounded-full bg-black border border-white/20"></span>
+</div>
+</div>
+<div>
+<p class="text-[9px] uppercase tracking-wider opacity-50">Stealth Black</p>
+<h4 class="text-xs font-bold uppercase">Heavy Shield Puffer</h4>
+<p class="text-[10px] mt-1 opacity-70">$1,199.99</p>
+</div>
+</div>
+<!-- Product Item 4 -->
+<div class="flex flex-col gap-3">
+<div class="aspect-[4/5] product-card-bg rounded-sm p-4 relative">
+<img alt="Jacket" class="w-full h-full object-contain mix-blend-screen opacity-80" src="https://lh3.googleusercontent.com/aida/ADBb0uiqX5_VqCTm9ENm1WNDedwDokHLqyPH0GvPtGuKQsjsQpHs4-pIqllJlyIyHQT5Xcv73gH3lO9AY1ktPB2zLUGHkTDn01t4grfd2vIPCFey8FmMIhyKhrqHCuqZBY0LKof_EUeLGKjWAtgaWMo1g70mEmzHrK9hTXEu1FTuTAz7IIR3KX4bgX-1x0SXT53T-cJwyfQMelVWuQsdZ9LV2o_GczoCFlux_JJ7XbP2AvcaJGax7Mw5nm7vdSqwwDzfksmEBv2SNtQ4y-8"/>
+<div class="absolute bottom-2 left-2 flex gap-1">
+<span class="w-2 h-2 rounded-full bg-blue-300"></span>
+</div>
+</div>
+<div>
+<p class="text-[9px] uppercase tracking-wider opacity-50">Icefield Blue</p>
+<h4 class="text-xs font-bold uppercase">Tech Puffer Jacket</h4>
+<p class="text-[10px] mt-1 opacity-70">$899.99</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- END: New Collection Grid -->
+<!-- BEGIN: Footer / Brand Statement -->
+<section class="relative min-h-[60vh] flex items-center justify-center overflow-hidden" data-purpose="footer-statement">
+<!-- Background Mountain -->
+<div class="absolute inset-0 z-0">
+<img alt="Mountain landscape" class="w-full h-full object-cover object-bottom brightness-50" src="https://lh3.googleusercontent.com/aida/ADBb0uiqX5_VqCTm9ENm1WNDedwDokHLqyPH0GvPtGuKQsjsQpHs4-pIqllJlyIyHQT5Xcv73gH3lO9AY1ktPB2zLUGHkTDn01t4grfd2vIPCFey8FmMIhyKhrqHCuqZBY0LKof_EUeLGKjWAtgaWMo1g70mEmzHrK9hTXEu1FTuTAz7IIR3KX4bgX-1x0SXT53T-cJwyfQMelVWuQsdZ9LV2o_GczoCFlux_JJ7XbP2AvcaJGax7Mw5nm7vdSqwwDzfksmEBv2SNtQ4y-8"/>
+<div class="absolute inset-0 bg-gradient-to-t from-slate-deep via-transparent to-transparent"></div>
+</div>
+<!-- Content -->
+<div class="relative z-10 text-center px-6">
+<div class="mb-8 opacity-40 text-7xl font-display font-bold text-outline select-none">
+          FRZN®
+        </div>
+<h2 class="text-4xl font-display font-bold uppercase tracking-tight leading-none mb-6">
+          Built for cold<br/>
+          Made for height<br/>
+          Forged to last
+        </h2>
+<div class="w-12 h-[1px] bg-ice-blue mx-auto mb-6"></div>
+<p class="text-[10px] uppercase tracking-[0.4em] opacity-60">FRZN Exterior Wear © 2024</p>
+</div>
+<!-- Small Bottom UI Elements -->
+<div class="absolute bottom-8 left-6 right-6 flex justify-between items-end">
+<div class="text-[8px] uppercase tracking-widest opacity-40 leading-relaxed">
+          FRZN was born in<br/>the mountains, not<br/>as a trend, but as<br/>a response.
+        </div>
+<div class="flex flex-col items-end gap-2 opacity-40">
+<div class="w-24 h-[1px] bg-white"></div>
+<p class="text-[8px] uppercase tracking-widest">Protocol: Altitude_09.EE</p>
+</div>
+</div>
+</section>
+<!-- END: Footer / Brand Statement -->
+</main>
+<footer class="bg-slate-deep py-12 px-6 border-t border-white/5" data-purpose="main-footer">
+<div class="flex flex-col gap-10">
+<div class="grid grid-cols-2 gap-8 text-xs uppercase tracking-widest font-semibold opacity-80">
+<div class="flex flex-col gap-4">
+<a href="#">Catalog</a>
+<a href="#">Puffers</a>
+<a href="#">Boots</a>
+</div>
+<div class="flex flex-col gap-4 text-right">
+<a href="#">Instagram</a>
+<a href="#">Twitter</a>
+<a href="#">Archive</a>
+</div>
+</div>
+<div class="flex justify-between items-center pt-10 border-t border-white/5 opacity-30 text-[9px] uppercase tracking-widest">
+<p>All Rights Reserved</p>
+<p>Designed by FRZN_TEAM</p>
+</div>
+</div>
+</footer>
+<script data-purpose="scroll-interactivity">
+    // Simple intersection observer for reveal animations
+    document.addEventListener('DOMContentLoaded', () => {
+      const observerOptions = {
+        threshold: 0.1
+      };
+
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('opacity-100');
+            entry.target.classList.remove('opacity-0', 'translate-y-4');
+          }
+        });
+      }, observerOptions);
+
+      document.querySelectorAll('#product-grid > div').forEach(item => {
+        item.classList.add('transition-all', 'duration-700', 'opacity-0', 'translate-y-4');
+        observer.observe(item);
+      });
+    });
+  </script>
+</body></html>
